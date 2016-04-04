@@ -1166,3 +1166,15 @@ h3:first-of-type{
 a{
     color: #428bca;
 }
+
+@media screen and (max-width: 726px){
+    #jumbo-banner img{
+      height: inherit;
+      width: 300px;
+    }
+
+    #jumbo-banner{
+      height: inherit;
+    }
+
+}
